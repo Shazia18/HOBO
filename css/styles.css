@@ -11,7 +11,7 @@ body{
 #header {
     position: relative;
     background-color: #d9230e;
-    height: 80px;
+    height: 90px;
    
 }
 #header .header-wrappar{
@@ -62,7 +62,7 @@ body{
 #header .header-wrappar .navbar > ul > li{
     position: relative;
     display: inline-block;
-    padding: 15px;
+    padding: 35px;
     color: #ffffff;
 }
 #header .header-wrappar .navbar > ul > li > button{
@@ -80,7 +80,7 @@ body{
     position: relative;
     background-color:#c51a08;
     height: 60px;
-    line-height: 55%;
+    line-height: 35%;
 }
 #header2 .header2-wrappar{
     position: relative;
@@ -103,8 +103,8 @@ body{
 
 #slider{
     position: relative;
-    background-image: url('slider.jpg');
-    height: 1000px;
+    background-image: url('../img33.jpg');
+    height: 600px;
     width: 100%;
 }
 #slider .slider-wrapper{
@@ -121,7 +121,7 @@ body{
     transform: translate(-50%, -50%);
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
    
 }
 #slider .slider-wrapper .slider-heading > hr{
@@ -138,7 +138,8 @@ body{
     position: absolute;
     top: 65%;
     left: 74%;
-    transform: translate(-50%, -50%);
+    /*transform: translate(-50%, -50%);
+    */
     color: #ffffff;
     text-transform: uppercase;
     font-size: 1rem;
@@ -150,7 +151,7 @@ body{
     position: absolute;
     top: 85%;
     left: 68%;
-    transform: translate(-50%, -50%);
+    /*transform: translate(-50%, -50%);*/
     text-transform: capitalize;
     font-size: 1rem;
     line-height: 2rem;
@@ -165,7 +166,7 @@ body{
     position: absolute;
     top: 85%;
     left: 80%;
-    transform: translate(-50%, -50%);
+   
     text-transform: capitalize;
     font-size: 1rem;
     line-height: 2rem;
@@ -179,6 +180,7 @@ body{
     position: relative;
     height: 500px;
     width: 100%;
+    background-color: darkgoldenrod;
 }
 #about .about-wrapper{
     height: 500px;
@@ -191,7 +193,7 @@ body{
     top: 21%;
     left: 70%;
     color: black;
-    transform: translate(-50%, -50%);
+ 
     font-weight: bold;
     text-transform: uppercase;
     font-size: 2.6rem;
@@ -200,10 +202,10 @@ body{
 #about .about-wrapper > img{
     margin: 0;
     position: absolute;
-    top: 53%;
+    top: 28%;
     left: 20%;
     color: #d9230e;
-    transform: translate(-50%, -50%);
+  
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -214,7 +216,7 @@ body{
     position: absolute;
     top: 45%;
     left: 70%;
-    transform: translate(-50%, -50%);
+ 
     color: black;
     text-transform: uppercase;
     font-size: 1rem;
@@ -226,7 +228,7 @@ body{
     position: absolute;
     top: 70%;
     left: 70%;
-    transform: translate(-50%, -50%);
+  
     color: #ffffff;
     text-transform: uppercase;
     font-size: 1rem;
@@ -238,7 +240,7 @@ body{
     position: relative;
     height: 800px;
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: darkkhaki;
 }
 #travel .travel-wrapper{
     height: 500px;
@@ -251,7 +253,7 @@ body{
     top: 21%;
     left: 50%;
     color: #454545;
-    transform: translate(-50%, -50%);
+    
     font-weight: bold;
     text-transform: uppercase;
     font-size: 2rem;
@@ -264,7 +266,7 @@ body{
     position: absolute;
     top: 35%;
     left: 50%;
-    transform: translate(-50%, -50%);
+  
     color: #7d7d7d;
     text-transform: lowercase;
     font-size: 15px;
@@ -292,7 +294,7 @@ body{
      top: 45%;
      left: 40%;
      color: #d9230e;
-    /* transform: translate(-50%, -50%); */
+ 
      font-weight: bold;
      text-transform: uppercase;
      font-size: 1.5rem;
@@ -305,7 +307,7 @@ body{
      top: 45%;
      left: 20%;
      color: #d9230e;
-    /* transform: translate(-50%, -50%); */
+  
      font-weight: bold;
      text-transform: uppercase;
      font-size: 1.5rem;
@@ -325,7 +327,7 @@ body{
     position: absolute; 
     top: 90%;
     left: 35%;
-    /* transform: translate(-50%, -50%); */
+ 
     color:black;
     font-weight: bold;
     text-transform: uppercase;
@@ -338,7 +340,7 @@ body{
     top: 90%;
     left: 10%;
     color:black;
-    /* transform: translate(-50%, -50%); */
+   
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -350,7 +352,7 @@ body{
     top: 90%;
     left: -5%;
     color:black;
-    /* transform: translate(-50%, -50%); */
+   
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -371,12 +373,15 @@ body{
     top: 100%;
     left: 33%;
     border-radius: 15%;
-    /* transform: translate(-50%, -50%); */
+   /* transform: translate(-50%, -50%); */
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 15px;
     background-color: #309f02;
+    height: 35px;
+    width:100px;
+    border-radius: 15%;
    
 }
 
@@ -385,12 +390,14 @@ body{
     position: absolute; 
     top: 100%;
     left: 11%;
-    /* transform: translate(-50%, -50%); */
+    height: 35px;
+    border-radius: 15%;
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 15px;
     background-color: #309f02;
+    width:100px;
    
 }
 
@@ -399,12 +406,14 @@ body{
     position: absolute; 
     top: 140%;
     left: -8%;
-    /* transform: translate(-50%, -50%); */
+    height: 35px;
+    border-radius: 15%;
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 15px;
     background-color: #309f02;
+    width: 100px;
    
 }
 #travel .travel-wrapper .img {
@@ -412,7 +421,7 @@ body{
     position: absolute; 
     top: 140%;
     left: 42%;
-    /* transform: translate(-50%, -50%); */
+   
     font-weight: bold;
     text-transform: uppercase;
     font-size: 15px;
@@ -423,7 +432,7 @@ body{
     position: relative;
     height: 600px;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #c91b1b;
 }
 #connect .connect-wrapper{
     height: 500px;
@@ -448,7 +457,7 @@ body{
     position: absolute;
     top: 17%;
     left: 50%;
-    transform: translate(-50%, -50%);
+  
     color: #7d7d7d;
     text-transform: lowercase;
     font-size: 15px;
@@ -461,7 +470,7 @@ body{
    top: 26%;
    left: 20%;
    color: #d9230e;
-  /* transform: translate(-50%, -50%); */
+
    font-weight: bold;
    text-transform: uppercase;
    font-size: 1.5rem;
@@ -470,10 +479,10 @@ body{
 
 #places{
     position: relative;
-    height: 800px;
+    height: 600px;
     width: 100%;
     background-color: #f1f1f1;
-    background-image: url('slider.jpg');
+    background-image: url('../slider.jpg');
 }
 #places .-wrapper{
     height: 500px;
@@ -487,7 +496,7 @@ body{
     top: 20%;
     left: 25%;
     color: beige;
-    transform: translate(-50%, -50%);
+  
     font-weight: bold;
     text-transform: uppercase;
     font-size: 2rem;
@@ -500,7 +509,7 @@ body{
     position: absolute;
     top: 30%;
     left: 27%;
-    transform: translate(-50%, -50%);
+  
     color: beige;
     text-transform: lowercase;
     font-size: 22px;
@@ -513,7 +522,7 @@ body{
     position: absolute; 
     top: 42%;
     left: 10%;
-    /* transform: translate(-50%, -50%); */
+   
     color: black;
     font-weight: bold;
     text-transform: uppercase;
@@ -523,18 +532,15 @@ body{
     border-radius: 10px;
    
 }
-#purchase .productlist{
-    display: inline-block;
-    grid-template-columns: 350px 350px 350px;
- 
 
-}
 
 #purchase{
     position: relative;
     height: 800px;
     width: 100%;
-    background-color: cornsilk;
+    display: inline-block;
+    grid-template-columns: 350px 350px 350px;
+    background-color:rgb(247, 84, 35);
 }
 #purchase .purchase-wrapper{
     height: 500px;
@@ -620,7 +626,7 @@ body{
     position: absolute; 
     top: 90%;
     left: 35%;
-    /* transform: translate(-50%, -50%); */
+  
     color:black;
     font-weight: normal;
     text-transform: uppercase;
@@ -645,7 +651,7 @@ body{
     top: 90%;
     left: -20%;
     color:black;
-    /* transform: translate(-50%, -50%); */
+
     font-weight: normal;
     text-transform: uppercase;
     font-size: 1.0rem;
@@ -693,9 +699,9 @@ body{
 #purchase .purchase-wrapper .purchase-button .details3  {
     margin: 0;
     position: absolute; 
-    top: 140%;
+    top: 90%;
     left: -8%;
-    /* transform: translate(-50%, -50%); */
+   
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
@@ -703,6 +709,24 @@ body{
     background-color: black;
    
 }
+#purchase .purchase-wrapper .purchase-button .moreproducts  {
+  
+    position: absolute; 
+    margin:0;
+    left: 10%;
+    top:120;
+
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: rgb(1, 19, 19);
+    height: 45px;
+    border-radius: 10%;
+   
+}
+
+
 input[type=text], select, textarea {
     width: 80%; /* Full width */
     padding: 12px; /* Some padding */  
@@ -710,7 +734,7 @@ input[type=text], select, textarea {
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
-   
+   background-color: #1bc9ba;
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
@@ -719,12 +743,112 @@ input[type=text], select, textarea {
 .destinationpics h2{
     text-transform: capitalize;
     text-align: center;
+    background-image: url("../img33.jpg");
+    width: 100%;
+    height: 500px;
+    font-size: 3.2 rems;
+    font-family: cursive;
    
  
    
 
 }
-.destinationpics .img{
-    height: 600px;
+.destinationpics{
+    background-color: darkgrey;
+    position: relative;
+}
+.destinationpics button{
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+#downloads{
+    position: relative;
+    height: 500px;
     width: 100%;
+ 
+    background-image: url("../advent.jpg");
+}
+#downloads .download-wrappar{
+    height: 500px;
+    width: 100%;
+    position: relative;    
+   
+    
+}
+#downloads .download-wrappar  > h2{
+    margin: 0;
+    position: absolute;
+    top: 21%;
+    left: 48%;
+    color: black;
+ 
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+   
+}
+#downloads .download-wrappar > img{
+    margin: 0;
+    position: absolute;
+    top: 28%;
+    left: 20%;
+    color: #d9230e;
+    border-top-left-radius: 12%;
+    border-top-right-radius: 12%;
+  
+    font-weight: bold;
+    text-transform: uppercase;
+  
+}
+#downloads .download-wrappar .dpara{
+   top: 35%;
+   left: 48%;
+   position: absolute;
+   font-size: 1.7rem;
+   margin: 0;
+
+   
+}
+    
+#downloads .download-wrappar .downloadBtn > button{
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+  
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 2rem;
+    background-color: #d9230e;
+    height: 2.5rem;
+    width: 9.5rem;
+
+}
+#sponsors{
+    background-color: white;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    text-transform: capitalize;
+    width: 100%;
+    height: 500px;
+}
+#sponsors .sponsors-wrapper .logos-box{
+    top: 55%;
+    position: relative;
+  
+    
+}
+
+#copyrights{
+    background-color: rgb(245, 16, 16);
+    color: black;
+    font-size: 1.2rem;
+   
+    font-family: 'Times New Roman', Times, serif;
+    height: 2.8rem;
+    
 }
